@@ -1,0 +1,36 @@
+.pagination-bottom {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  position: absolute;
+  bottom: 10px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.page-list {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.page-number {
+  border-style: solid;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
